@@ -17,7 +17,7 @@ html{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 9;
 }
@@ -45,6 +45,7 @@ html{
     display: flex;
     align-items: center;
     padding-left: 10%;
+    padding-top: 80px;
     
 }
 .main h1{
@@ -197,7 +198,7 @@ footer p{
         max-width: 80%;
     }
    
-    .sobre div h2{
+    .sobre article h2{
         font-size: 2.5em;
     }
     .sobre img{
