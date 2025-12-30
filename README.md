@@ -2,6 +2,9 @@
 
 Projeto de página institucional responsiva desenvolvido com HTML e CSS, com foco em boas práticas de estrutura, semântica e layout responsivo.
 
+## 🔗 Preview
+👉 https://andersondev123.github.io/landing-page-html-css/
+
 ## 💻 Sobre o projeto
 Este projeto tem como objetivo apresentar uma página simples e bem estruturada, simulando um site institucional/portfólio pessoal, com seções de apresentação, sobre e projetos.
 
