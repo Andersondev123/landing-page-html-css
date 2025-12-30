@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing:border-box ;
+}
+body{ 
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    background-color: #181818;
+    height:80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 29px;
+    
+}
+.nav-list a{
+    text-decoration: none;
+    padding: 20px;
+    color: #DDD;
+}
+.nav-list a:hover{
+    color: #ffffff;
+}
+
+.main{
+    width: 100%;
+    background-color: #000;
+    height: calc(100vh - 80px);
+    background-image: url(images/programador.png);
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    
+}
+.main h1{
+    color: #ffffff;
+    font-size: 3em;
+}
+.main p{
+    color: #0077ff;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.call-to-action{
+    cursor: pointer;
+    background-color: #ffffff;
+    padding: 14px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: 0.8s;
+    display: inline-block;
+    text-decoration: none;
+}
+.main a{
+    text-decoration: none;
+    color: #181818;
+}
+.call-to-action:hover{
+    transform: scale(1.1);
+}
+
+.sobre{
+    background-color: #ffffff;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.sobre p{
+    text-align: justify;
+    line-height: 1.6;
+    
+}
+.sobre article{
+    max-width: 50%;
+    padding-right: 40px;
+    
+}
+.sobre img{
+    max-width: 450px;
+    border-radius: 9px;
+}
+.sobre article h2{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.projetos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px 80px 0px;
+}
+.projetos h2{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.projetos p{
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.projetos-list{
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projetos img{
+    width: 20%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    opacity: 0.8;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.projetos img:hover{
+    opacity: 1;
+}
+.action{
+    background-color: #181818;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    font-size: 1em;
+    margin-top: 15px;
+}
+
+footer{
+    width: 100%;
+    background-color: #181818;
+    color: #ffffff;
+    padding: 55px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer p{
+    margin-left: 10px;
+}
+
+
+@media (max-width: 1050px){
+    
+    .main h1{
+        font-size: 2em;
+    }
+    .main p{
+        font-size: 1em;
+    }
+    .main{
+        background-size: cover;
+    }
+    
+    .sobre{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .sobre article{
+        max-width: 80%;
+    }
+   
+    .sobre div h2{
+        font-size: 2.5em;
+    }
+    .sobre img{
+        width: 80%;
+        margin-top: 30px;
+    }
+    
+    .projetos img{
+        width: 30%;
+    }
+    .projetos h2{
+        font-size: 1.8em;
+    }
+    
+    footer{
+        flex-direction: column;
+    }
+    footer h3{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    footer p{
+        margin: 0;
+    }
+    
+}
